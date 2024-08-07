@@ -86,6 +86,10 @@ function App(){
   {
     name:"Buy Bread",
     date:"4/10/2023"
+  },
+  {
+    name:"Buy Rice",
+    date:"4/10/2023"
   }];
 
   return <>
