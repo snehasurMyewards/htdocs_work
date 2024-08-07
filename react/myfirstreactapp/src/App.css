@@ -4,22 +4,22 @@
   font-size: 45px;
   margin: 10px;
   margin-bottom: 20px;
-}
+}*/
 input {
   width: 100%;
 }
-.items-container{
+/*.items-container{
   text-align: left;
-}
+}*/
 .kg-row{
   margin: 10px 5px;
 }
 .kg-button{
   min-width: 80px;
-} */
+} 
 /* todo app end*/
 /* props */
-.kg-item{
+/* .kg-item{
 background-color:aquamarine;
 }
 .kg-span{
@@ -29,4 +29,4 @@ background-color:aquamarine;
 .food-heading{
   background-color: aliceblue;
   color: brown;
-}
+} */

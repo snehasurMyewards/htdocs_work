@@ -79,24 +79,28 @@ function App(){
   
 // )
 //todo with props
- const todoItems=[{
-  name:"Buy Milk",
-  date:"4/10/2023"
-  },
-  {
-    name:"Buy Bread",
-    date:"4/10/2023"
-  },
-  {
-    name:"Buy Rice",
-    date:"4/10/2023"
-  }];
+//  const todoItems=[{
+//   name:"Buy Milk",
+//   date:"4/10/2023"
+//   },
+//   {
+//     name:"Buy Bread",
+//     date:"4/10/2023"
+//   },
+//   {
+//     name:"Buy Rice",
+//     date:"4/10/2023"
+//   }];
 
+  // return <>
+  // {/* <TodoItem todoName="Buy Milk" todoDate="4/10/2023"/>
+  // <TodoItem todoName="Buy Bread" todoDate="4/10/2023"/> */}
+  // <AppName/>
+  // <AppTodo/>
+  // <TodoItems todoItems={todoItems}/>
+  // </>
   return <>
-  {/* <TodoItem todoName="Buy Milk" todoDate="4/10/2023"/>
-  <TodoItem todoName="Buy Bread" todoDate="4/10/2023"/> */}
-
-  <TodoItems todoItems={todoItems}/>
+  
   </>
 
 }
