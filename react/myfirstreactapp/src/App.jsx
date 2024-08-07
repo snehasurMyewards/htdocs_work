@@ -15,6 +15,7 @@ import FoodItems from "./components/FoodItems";
 import ErrorMessage from "./components/ErrorMessage";
 import TodoItem from "./components/TodoItem";
 import TodoItems from "./components/TodoItems";   
+import style from "./components/App.module.css";
 function App(){
   // return <div>
   //   <h1>this is the best react course</h1>
@@ -100,7 +101,32 @@ function App(){
   // <TodoItems todoItems={todoItems}/>
   // </>
   return <>
-  
+  <div className={style.calculator}> 
+    <input type="text" className={style.display}/>
+    <div className={style.buttonsContainer}>
+      <button>AC</button>
+      <button>DEL</button>
+      <button>%</button>
+      <button>/</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>*</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>-</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>+</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+    </div>
+
+  </div>
+
   </>
 
 }
