@@ -13,6 +13,8 @@ import ClockSlogan from "./components/ClockSlogan";
 import CurrentTime from "./components/CurrentTime";
 import FoodItems from "./components/FoodItems";
 import ErrorMessage from "./components/ErrorMessage";
+import TodoItem from "./components/TodoItem";
+import TodoItems from "./components/TodoItems";   
 function App(){
   // return <div>
   //   <h1>this is the best react course</h1>
@@ -67,15 +69,31 @@ function App(){
 //   );
 
 //props
-let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
-return (
-  <>
-    <h1>Healthy Food</h1>
-    <ErrorMessage/>
-    <FoodItems/>
-  </>
+// let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
+// return (
+//   <>
+//     <h1 className="food-heading">Healthy Food</h1>
+//     <ErrorMessage items={foodItems}/>
+//     <FoodItems items={foodItems}/>
+//   </>
   
-)
+// )
+//todo with props
+ const todoItems=[{
+  name:"Buy Milk",
+  date:"4/10/2023"
+  },
+  {
+    name:"Buy Bread",
+    date:"4/10/2023"
+  }];
+
+  return <>
+  {/* <TodoItem todoName="Buy Milk" todoDate="4/10/2023"/>
+  <TodoItem todoName="Buy Bread" todoDate="4/10/2023"/> */}
+
+  <TodoItems todoItems={todoItems}/>
+  </>
 
 }
 

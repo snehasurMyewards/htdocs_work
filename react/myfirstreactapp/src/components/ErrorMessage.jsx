@@ -1,7 +1,12 @@
-const ErrorMessage=()=>{
-  // let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
+// const ErrorMessage=()=>{
+//   let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
+//   return (<>
+//       {foodItems.length===0 && <h3>No food items</h3>}
+//   </>)  
+// }
+const ErrorMessage=({items})=>{
   return (<>
-      {foodItems.length===0 && <h3>No food items</h3>}
+      {items.length===0 && <h3>No food items</h3>}
   </>)  
 }
 export default ErrorMessage
