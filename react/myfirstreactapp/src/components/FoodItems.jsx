@@ -11,11 +11,22 @@ import Item from "./Item";
 //       </ul>
 //       );
 // }
+// const FoodItems=({items})=>{
+//   return  (
+//       <ul className="list-group">
+//        {items.map((foodItem)=>(
+//          <Item key={foodItem} foodItem={foodItem}/>
+//        )
+//       )}
+//       </ul>
+//       );
+// }
+
 const FoodItems=({items})=>{
   return  (
       <ul className="list-group">
        {items.map((foodItem)=>(
-         <Item key={foodItem} foodItem={foodItem}/>
+         <Item key={foodItem} foodItem={foodItem} handleBuyButton={()=>alert(`Buy Clicked-> ${foodItem}`)}/>
        )
       )}
       </ul>

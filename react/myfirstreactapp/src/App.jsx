@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Hello from "./Hello";
 import Random from "./Random";
 import AppTodo from "./components/AddTodo";
@@ -19,6 +19,8 @@ import style from "./components/App.module.css";
 import Display from "./components/Display";
 import ButtonsContainer from "./components/ButtonsContainer";
 import Container from "./components/Container";
+import FoodInput from "./components/FoodInput";
+
 function App(){
   // return <div>
   //   <h1>this is the best react course</h1>
@@ -111,12 +113,88 @@ function App(){
   // </div>
 
   // </>
-let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
+  //passing function via props
+// let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
+// let textState=useState();
+// let textToShow="Food Item Entered By User"; 
+
+// const handleOnChange=(event)=>{
+//   console.log(event.target.value+'from app')
+//   textToShow=event.target.value;
+// }
+// return (
+//   <>
+//   <Container>
+//     <h1 className="food-heading">Healthy Food</h1>
+//     <ErrorMessage items={foodItems}/>
+//     <FoodInput handleOnChange={handleOnChange}/>
+//     <p>
+//       {textToShow}
+//     </p>
+//     <FoodItems items={foodItems}/>
+//   </Container>
+//   <Container> 
+//     <p>
+//       Above is the list of healthy food items.
+//     </p>
+
+     
+//   </Container>
+//   </>
+  
+// )
+
+
+// }
+//userState
+// let foodItems=['Dal','Green Vegetable','Roti','Salad','Milk'];
+// let textStateArr=useState('Food Item Entered By User');
+// let textToShow=textStateArr[0];
+// let setTextState=textStateArr[1];
+// console.log(`Current value of state is:${textStateArr}`);
+// const handleOnChange=(event)=>{
+//   console.log(event.target.value+'from app')
+//   setTextState(event.target.value);
+// }
+// return (
+//   <>
+//   <Container>
+//     <h1 className="food-heading">Healthy Food</h1>
+//     <ErrorMessage items={foodItems}/>
+//     <FoodInput handleOnChange={handleOnChange}/>
+//     <p>
+//       {textToShow}
+//     </p>
+//     <FoodItems items={foodItems}/>
+//   </Container>
+//   <Container> 
+//     <p>
+//       Above is the list of healthy food items.
+//     </p>
+
+     
+//   </Container>
+//   </>
+  
+// )
+
+
+// }
+let [foodItems,setFoodItems]=useState(['Dal','Green Vegetable','Roti','Salad','Milk']);
+const onKeyDown=(event)=>{
+  if(event.key==='Enter'){
+    let newFoodItem=event.target.value;
+    console.log('Food item entered is:'+newFoodItem);
+    let newItems = [...foodItems,newFoodItem];
+    setFoodItems(newItems);
+  }
+}
 return (
   <>
   <Container>
     <h1 className="food-heading">Healthy Food</h1>
     <ErrorMessage items={foodItems}/>
+    <FoodInput handleKeyDown={onKeyDown}/>
     <FoodItems items={foodItems}/>
   </Container>
   <Container> 
@@ -132,5 +210,6 @@ return (
 
 
 }
+
 
 export default App;
