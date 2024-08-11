@@ -180,10 +180,11 @@ function App(){
 
 
 // }
-let [foodItems,setFoodItems]=useState(['Dal','Green Vegetable','Roti','Salad','Milk']);
+let [foodItems,setFoodItems]=useState([]);
 const onKeyDown=(event)=>{
   if(event.key==='Enter'){
     let newFoodItem=event.target.value;
+    event.target.value="";
     console.log('Food item entered is:'+newFoodItem);
     let newItems = [...foodItems,newFoodItem];
     setFoodItems(newItems);
@@ -193,8 +194,8 @@ return (
   <>
   <Container>
     <h1 className="food-heading">Healthy Food</h1>
-    <ErrorMessage items={foodItems}/>
     <FoodInput handleKeyDown={onKeyDown}/>
+    <ErrorMessage items={foodItems}/>
     <FoodItems items={foodItems}/>
   </Container>
   <Container> 
