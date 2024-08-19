@@ -1,0 +1,493 @@
+@media (max-width: 768px) {
+    .skin-blue .main-header .logo {
+        text-align: center;
+        height: 52px;
+        /*    line-height: 52px;*/
+        width: 100%;
+        padding-top: 6px;
+    }
+    .content-wrapper,
+    .main-footer {
+        margin-left: 0px !important;
+    }
+    .main-sidebar {
+        -webkit-transform: translate(-274px, 0);
+        -ms-transform: translate(-274px, 0);
+        -o-transform: translate(-274px, 0);
+        transform: translate(-274px, 0);
+    }
+    .skin-blue .main-header .navbar {
+        background-color: transparent !important;
+        margin-top: 0px;
+        margin-left: 0px;
+        position: absolute;
+        top: 0;
+    }
+    .fixed .content-wrapper,
+    .fixed .right-side {
+        padding-top: 54px;
+    }
+    .main-header .navbar {
+        background-color: transparent;
+        margin-top: -50px;
+    }
+    .main-header .sidebar-toggle:hover {
+        color: #099aaa;
+    }
+    .issuance-right {
+        min-height: 98px;
+        margin-top: 22px;
+    }
+    .outstanding-units {
+        margin-bottom: 10px;
+    }
+    .outstanding-sub-set {
+        margin-bottom: 10px;
+    }
+    .loyalty-indexvalue-sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .loyalty-indexvalue-sub-left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: right;
+    }
+    .sub-select {
+        width: auto;
+        margin-right: 0px;
+    }
+    .loyalty-indexvalue-sub-right {
+        display: flex;
+        flex-direction: column;
+    }
+    .index-value {
+        margin-top: 10px;
+    }
+    .outstanding-set {
+        margin: 15px;
+    }
+    .main-sidebar {
+        padding-top: 54px;
+        width: 230px;
+    }
+    .aside-left-slide {
+        position: absolute;
+        padding-top: 16px;
+    }
+    .logo-asid {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .logo-asid img {
+        width: 52px;
+        margin-bottom: 16px;
+        border-radius: 50%;
+    }
+    .logo-asid h4 {
+        margin: 0px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .sidebar-menu > li > a {
+        padding: 10px 5px 10px 15px;
+        display: block;
+    }
+    .sidebar-menu > li > a > img {
+        width: 24px;
+    }
+    .aside-right-slide {
+        padding-top: 118px;
+        border-right: 3px solid #099aaa;
+    }
+    .aside-body-text {
+        height: 48px;
+        line-height: 44px;
+    }
+    .main-header {
+        display: block;
+        position: relative;
+    }
+    .giftcard-log-sub-main {
+        padding: 0px 15px;
+    }
+    .dispalynone-mob {
+        display: none;
+    }
+    .log-gift-part img {
+        min-height: 458px;
+    }
+    .log-gift-part {
+        padding: 76px 46px;
+    }
+    .giftcard-log-sub-header {
+        text-align: center;
+    }
+    .giftcard-log-sub-header a img {
+        width: 136px;
+    }
+    .fixed .main-header {
+        z-index: 99999;
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+    }
+    .customer-main {
+        width: 100%;
+        float: none;
+    }
+    .analytics-main {
+        width: 100%;
+        float: none;
+    }
+    .skuanalytics-main {
+        width: 100%;
+        float: none;
+    }
+    .main-cont-dcount {
+        display: block;
+    }
+    .main-header .sidebar-toggle {
+        display: block;
+        position: absolute;
+        color: #361863;
+        border-right: 1px solid #ccc;
+        height: 52px;
+        line-height: 46px;
+        padding: 4px 15px;
+    }
+    .main-cont-sub {
+        border-radius: 0px;
+        background: #faf7f4;
+        min-height: 400px;
+        padding: 15px 15px;
+    }
+    .content-wrapper-dashboard {
+        padding-top: 15px !important;
+    }
+    .overview-business-head {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .overview-business-head h4 {
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .sales-overview img {
+        display: none;
+    }
+    .trans-cont-main {
+        position: relative;
+        padding: 0px;
+    }
+    .sales-overview-set img {
+        display: none;
+    }
+    .trans-cont-main-set {
+        position: relative;
+        padding: 0px;
+    }
+    .trans-cont {
+        text-align: center;
+        border: 1px solid #cccccc8f;
+        border-radius: 4px;
+        padding: 4px 0px;
+    }
+    .main-cont-overview {
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .data-collection {
+        padding-bottom: 15px;
+    }
+    .custom-mob-set {
+        display: flex;
+        align-items: center;
+    }
+    .custom-mob-set .customer-sub-set {
+        width: 50%;
+    }
+    .custom-mob-set .customer-sub-des {
+        width: 50%;
+        margin: 0px;
+    }
+    .line-chart-main {
+        margin-bottom: 14px;
+        border-bottom: 1px solid #cccccc94;
+        padding-bottom: 14px;
+    }
+    .line-chart-main-set {
+        margin-bottom: 0px;
+        border-bottom: 0px solid #cccccc94;
+        padding-bottom: 0px;
+    }
+    .overview-business-body {
+        padding-bottom: 0px;
+    }
+    .redemption-details-sub {
+        width: 70%;
+        margin: 0px auto;
+        margin-bottom: 30px;
+    }
+    .redeem-set-details {
+        margin-top: 0px;
+    }
+    .main-item-sold {
+        overflow: scroll;
+    }
+    .graph-main {
+        height: 178px;
+    }
+    .no-paddingsales {
+        padding: 0px;
+    }
+    .sales-overview-data {
+        height: 84px;
+        margin-top: 10px;
+    }
+    .logo-set-custom {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 52px;
+        width: 100%;
+    }
+    .logo-text {
+        width: 198px;
+    }
+    .sales-date {
+        margin-left: inherit;
+    }
+    .graph-legend-display {
+        font-size: 8px;
+    }
+    .graph-main-set p {
+        font-size: 10px;
+    }
+    .redemption-report-scroll-main {
+        overflow-x: scroll;
+    }
+    .redemption-report-scroll {
+        width: 675px;
+    }
+    .redemption-performance-scroll-main {
+        overflow-x: scroll;
+    }
+    .redemption-performance-scroll {
+        width: 800px;
+    }
+    .graph-main-weekly {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sales-trans .graph-trmain {
+        height: 145px;
+    }
+    .sub-filter-dataset {
+        display: block;
+    }
+    .sub-filter-dataset p {
+        margin-top: 10px;
+    }
+    .dataset-btn {
+        float: right;
+    }
+    .dataset-btn a {
+        width: initial;
+        height: initial;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-right: 15px;
+    }
+    .dataset-btn-set {
+        right: 15px;
+    }
+    .compare .pure-material-checkbox {
+        margin-top: 14px;
+    }
+    .compare {
+        width: 100%;
+    }
+    .dataset-filter-main {
+        margin-bottom: 8px;
+    }
+    .add-setspn {
+        display: block;
+    }
+    .back-body-head button {
+        background: #361863;
+        color: #fff;
+        font-size: 11px;
+        padding: 6px 8px;
+        margin-top: 16px;
+    }
+    .back-body-head button img {
+        width: 14px;
+        margin-right: 4px;
+    }
+    .back-setmain-body {
+        border-radius: 20px;
+        padding: 25px 15px;
+    }
+    .row-subfilter {
+        display: block;
+    }
+    .row-subfilter .brand-radio {
+        margin-bottom: 6px;
+    }
+    .back-body-head h4 {
+        font-size: 16px;
+    }
+    .set-filter-body {
+        margin-bottom: 12px;
+    }
+    .remove-filter2 {
+        margin-top: 14px;
+        display: block;
+    }
+    .back-body-redemtionstore {
+        width: 4645px;
+    }
+    .recent-performence-tab .recent-performence-tab-head .nav-tabs > li > a {
+        padding: 10px 4px;
+        font-size: 10px;
+    }
+    .recent-performence-tab .recent-performence-tab-head ul {
+        border-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .net-sales-graph-main {
+        width: 84%;
+    }
+    .overview-percent {
+        flex: inherit;
+    }
+    .recent-overview-body,
+    .kpi-card {
+        &:last-child {
+            margin-bottom: 10px;
+        }
+    }
+    .recent-overview-body-cont {
+        justify-content: end;
+        &.mb-start {
+            justify-content: start;
+            &.overview-percent:first-child {
+                :is(h5) {
+                    width: 85px;
+                }
+            }
+        }
+    }
+    .set-wid1,
+    .set-wid2,
+    .set-wid3 {
+        width: auto !important;
+    }
+    .mb-start {
+        justify-content: start;
+    }
+    .mob-p-0 {
+        padding: 0;
+    }
+    .fl-col {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 16px;
+        .col-xs-5,
+        .col-xs-7 {
+            width: 100% !important;
+            margin: 0;
+        }
+        .recent-overview-body-cont {
+            justify-content: start;
+            .overview-percent {
+                width: 100px !important;
+                :is(h5),
+                :is(p) {
+                    white-space: nowrap;
+                }
+            }
+            &.mb-22:nth-child(2) {
+                margin: 0;
+            }
+        }
+    }
+    .fl-row {
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+    }
+    .mob-list {
+        flex-wrap: wrap;
+        .list_left {
+            width: 100% !important;
+            display: flex;
+            flex-direction: row !important;
+            justify-content: start !important;
+            align-items: start;
+        }
+    }
+    /* .overview-percent{
+    flex: auto !important;
+    margin-right: 0;
+    &::before{
+      height: 30px;
+    }
+  } */
+    .net_sale,
+    .spm,
+    .resale {
+        .net-sales-graph-main {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+    .rst {
+        .weekly-body {
+            margin-top: 0;
+        }
+    }
+    .resale-trans{
+      .return-sales-progress{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 6px;  
+        .date-cont{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          gap: 6px;
+          :is(h5) {
+            padding-right: 6px;
+            border-right: 1px solid #e7e1ff;
+          }
+        }
+        .progress-bar-sales{
+          width: 60%;
+        }
+        .value-cont{
+          padding-left: 6px;
+          :is(h5){
+            overflow: visible;
+          }
+          :is(span){
+            overflow: visible;
+          }
+        }
+      }
+    }
+}

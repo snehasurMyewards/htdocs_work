@@ -1,0 +1,171 @@
+body {
+  /*height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;*/
+}
+/*.login-head{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}*/
+.card {
+  overflow: hidden;
+  border-radius:0px;
+  min-height:650px;
+}
+
+.img-left {
+  width:50%;
+  background: url("https://ewardsmain.s3.ap-southeast-1.amazonaws.com/ewards/mainsite/Frame+5+(1).png") center;
+  background-size: cover;
+}
+
+.card-body {
+  padding: 2rem;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.input {
+  padding: 6px 15px;
+  background: #fff;
+  border-radius: 25px !important;
+  outline: none;
+  color: #444444;
+  border: 1px solid #F78E31;
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+}
+
+.placeholder {
+  position: absolute;
+  top: 10px;
+  left:26px;
+  font-size: 14px;
+  padding: 0px 5px;
+  color: #f78e31;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input:focus + .placeholder,
+.input:not(:placeholder-shown) + .placeholder {
+  top: -10px;
+  background-color: #fff;
+}
+.log-head{
+    padding-bottom: 44px;
+    text-align: center;
+}
+.log-head h5{
+  margin: 0px;
+  padding-bottom: 14px;
+  font-weight: normal;
+}
+.log-head h4{
+  margin: 0px;
+  font-size: 20px;
+}
+.log-head img{
+  width: 158px;
+  margin: 26px 0px;
+}
+.log-btn{
+  text-align: center;
+  margin-top:32px;
+}
+.log-btn button{
+  background: #28188A;
+  color: #fff;
+  padding: 7px 38px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 25px;
+  display: block;
+  width: 100%;
+}
+.log-btn button:hover{color: #fff;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    background-color: #fff;
+}
+.errorMsg{color: #f00; font-size: 12px;}
+
+.giftcard-log-main{
+  margin: 0;
+  padding: 0;
+  background-image: url('https://ewardsmain.s3.ap-southeast-1.amazonaws.com/report/report_back.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.giftcard-log-sub-header{padding-top:30px; padding-bottom: 30px}
+.giftcard-log-sub-header a{color: #4C60E7; font-size:26px; font-weight: 600;}
+.giftcard-log-sub-header a:hover{text-decoration: none;}
+.giftcard-log-sub-header a:active{text-decoration: none;}
+.giftcard-log-sub-header a img{width: 180px;}
+.giftcard-log-sub-main{padding: 0px 52px;}
+.log-gift-img{}
+.log-gift-img img{width: 100%;}
+.log-gift-part{
+    position: relative;
+    padding: 76px 68px;
+    width: 100%;
+}
+.log-gift-part img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.log-gift-part .login-part-cont{
+    position: relative;
+    text-align: center;
+}
+.log-gift-part .login-part-cont h4{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.login-mobil{
+    margin-top: 28px;
+}
+.login-mobil-main{
+    position: relative;
+    margin-bottom: 26px;
+}
+.login-mobil-main input{
+    height: 45px;
+    border: 1px solid #4C60E7;
+    border-radius: 8px;
+}
+.login-mobil-main .search-btn{}
+.login-mobil-main .search-btn button.generate-otp{
+    border-radius: 46px;
+    background: #4C60E7;
+    backdrop-filter: blur(4px);
+    border: 1px solid #4C60E7;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 14px;
+}
+.no-padding{padding: 0px;}
+.dispalynone-mob{display: block;}
+.log-error{
+    color: #f00;
+    text-align: center;
+}
