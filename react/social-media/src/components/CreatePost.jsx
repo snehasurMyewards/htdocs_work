@@ -17,7 +17,7 @@ const CreatePost = () => {
     const postBody = postBodyElement.current.value;
     const reactions = reactionsElement.current.value;
     const tags = tagsElement.current.value.split(" ");
-    console.log(userId, postTitle, postBody, reactions, tags);
+    console.log("createPost", userId, postTitle, postBody, reactions, tags);
 
     userIdElement.current.value = "";
     postTitleElement.current.value = "";
@@ -25,7 +25,24 @@ const CreatePost = () => {
     reactionsElement.current.value = "";
     tagsElement.current.value = "";
 
-    addPost(userId, postTitle, postBody, reactions, tags);
+    fetch("https://dummyjson.com/posts/add", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        title: postTitle,
+        body: postBody,
+        reactions: reactions,
+        userId: userId,
+        tags: tags,
+      }),
+    })
+      .then((res) => res.json())
+      //.then(console.log);
+      .then((post) => {
+        console.log("from createPost", post);
+        addPost(post);
+        //addPost(userId, postTitle, postBody, reactions, tags);
+      });
   };
 
   return (
