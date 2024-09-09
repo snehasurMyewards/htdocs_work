@@ -35,8 +35,6 @@ Oops concept
 Encapsulation is the bundling of data and methods that operate on that data into a single unit (class). It restricts access to some of the object's components and hides the internal state from the outside world.
 
 Example:
-
-php
 Copy code
 class Car {
     private $model;
